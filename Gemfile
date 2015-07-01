@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'aws-sdk', '~> 2.1.1' 
+gem 'aws-sdk', '< 2.0' 
 gem 'masonry-rails'
 gem 'will_paginate', '~> 3.0.6'
 gem 'will_paginate-bootstrap'
